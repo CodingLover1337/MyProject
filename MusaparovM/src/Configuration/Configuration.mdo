@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad32497a-e7a6-41ee-b9de-3acd5ae9bb1b">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="9288be8a-eeab-4258-aeab-55ac937edcc3"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="94869dd0-f0e8-40ff-a97a-7b8fe42bc17d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="bf9e63ad-a03b-4c6f-955b-54413948b44e"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="98d2d304-4ba6-49f2-afe3-230f33211943"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="61c24e0a-9765-4fa7-a7e6-86cdb89f8a37"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e6d2a497-4bab-49db-9ac3-f0df964e302c"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="4e3da140-b7f5-4f2d-b4c8-4be944738fb1"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.26</compatibilityMode>
+  <languages uuid="9af157f6-d194-4ab3-baae-a98450f95bac">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Рестораны</catalogs>
+  <catalogs>Catalog.Курьеры</catalogs>
+  <catalogs>Catalog.Блюда</catalogs>
+  <documents>Document.Заказ</documents>
+  <enums>Enum.СтатусКурьера</enums>
+  <enums>Enum.СтатусЗаказа</enums>
+  <reports>Report.СписокЗаказов</reports>
+  <accumulationRegisters>AccumulationRegister.ИсторияЗаказов</accumulationRegisters>
+</mdclass:Configuration>

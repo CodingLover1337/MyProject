@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0eaf5964-9960-484e-80d2-62148d7d5b9e">
+  <producedTypes>
+    <objectType typeId="ec7c254b-c772-4fcb-9ad9-d4b8ca1455b9" valueTypeId="dabaa099-90fe-404f-a405-d88fdae5c49f"/>
+    <refType typeId="8db76390-1257-48cf-8477-df5ae99a9f25" valueTypeId="6b4b0868-4ddb-497f-ae84-f0960f0c612c"/>
+    <selectionType typeId="7108909c-cba7-4cd1-bbb7-0b4ab077c2db" valueTypeId="7c4c6818-1c93-4ecd-89f5-4141d35b926b"/>
+    <listType typeId="32ab245b-86cb-4e9e-9187-1fc88d8edc9b" valueTypeId="96daf62e-15cd-493e-b18a-8ce5e8d3522c"/>
+    <managerType typeId="42a93062-3c72-4d07-aaaf-0c9fb74e5905" valueTypeId="53d5eb75-9589-4c0c-a45c-3ea531045670"/>
+  </producedTypes>
+  <name>Курьеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курьеры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Курьеры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Курьеры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="7f5e8c70-13d6-435c-b0e3-1ed866d18853">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b0236968-f49b-4f4f-a3ac-d776993b267f">
+    <name>ЗонаДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зона доставки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e65c6ff7-fd38-4523-9026-8583abd14414">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусКурьера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

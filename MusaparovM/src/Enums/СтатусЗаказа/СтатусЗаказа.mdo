@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e84820b-ee60-4e82-9b9e-9e57c0210734">
+  <producedTypes>
+    <refType typeId="fa11412e-7151-4f6e-a697-80ba31d202f7" valueTypeId="c3b574e0-32e7-4d66-9763-241b90374ee5"/>
+    <listType typeId="3d994097-787b-4143-a01d-aff03bc22dc7" valueTypeId="24fe249d-370e-489a-8382-63e146847aab"/>
+    <managerType typeId="3722a136-c989-49d2-9dab-a552606032ee" valueTypeId="3cf8149d-5b44-45fd-b722-4eec95383a2a"/>
+  </producedTypes>
+  <name>СтатусЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус заказа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7c589c67-e7af-410d-b7f6-33084aa0823c">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="170c3bed-f373-424a-b84e-3dd714741b86">
+    <name>В_пути</name>
+    <synonym>
+      <key>ru</key>
+      <value>В пути</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9cd5ddb2-058d-425a-8a6f-464ae1c62c39">
+    <name>Доставлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставлен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d1f89a51-02e0-489f-8541-675c06ce40f6">
+    <name>Отменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

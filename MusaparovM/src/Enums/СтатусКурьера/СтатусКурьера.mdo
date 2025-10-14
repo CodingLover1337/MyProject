@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39b27861-6511-41d5-855b-838642d89c81">
+  <producedTypes>
+    <refType typeId="4164916a-c715-4337-9952-25aebaf675be" valueTypeId="8a37732b-4914-4ac5-bc11-2ec6962800fa"/>
+    <listType typeId="3cd911e7-aeee-4ef0-b3b3-e4e69448a078" valueTypeId="63588eae-441b-4f40-8fd3-1cdb19a94add"/>
+    <managerType typeId="3a342a46-acbf-4838-b63a-0e920e1118fa" valueTypeId="471f7595-ae15-4ff4-b670-a45095e1bfd2"/>
+  </producedTypes>
+  <name>СтатусКурьера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус курьера</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a15896d9-dc05-432f-843a-fb02cc419dd9">
+    <name>Свободен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свободен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9eace90-539d-4a96-bd5e-eab2f5f688ae">
+    <name>В_пути</name>
+    <synonym>
+      <key>ru</key>
+      <value>В пути</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90ee4607-8858-46b9-9e00-4a07ae26fa6e">
+    <name>Недоступен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недоступен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

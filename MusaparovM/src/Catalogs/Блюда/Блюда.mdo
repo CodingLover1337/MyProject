@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d6419f4-c0ef-4c68-9408-a78230e70f7d">
+  <producedTypes>
+    <objectType typeId="e3179804-d9b9-4d11-9c8d-047f032a194d" valueTypeId="9cd66740-632a-4aab-969b-1a212736077f"/>
+    <refType typeId="127cc451-b7bd-4b65-9ea7-e1e80f26baa1" valueTypeId="c2baee48-4cd4-4bde-97e0-4c1e10a1d67c"/>
+    <selectionType typeId="501e07eb-45db-4b68-b6a9-bf78336df260" valueTypeId="995d306c-51a8-46b0-95be-010dc67d8787"/>
+    <listType typeId="93fe5bc4-767c-4f41-93d6-ba9944243b5c" valueTypeId="08f7389b-efb7-45c6-8eb4-3f3b24f86797"/>
+    <managerType typeId="34a3099d-f1a2-4e78-8972-5b452d748569" valueTypeId="3db27dad-10de-4be5-8bf5-59a07cf2d07e"/>
+  </producedTypes>
+  <name>Блюда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Блюда</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Блюда.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Блюда.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e9129b1a-bf31-482e-b649-cd931d010270">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0a900652-7672-4e5d-8839-dcf0751a23f0">
+    <name>Ресторан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресторан</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Рестораны</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
