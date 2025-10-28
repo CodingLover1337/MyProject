@@ -38,6 +38,7 @@
   <catalogs>Catalog.Рестораны</catalogs>
   <catalogs>Catalog.Курьеры</catalogs>
   <catalogs>Catalog.Блюда</catalogs>
+  <catalogs>Catalog.лох</catalogs>
   <documents>Document.Заказ</documents>
   <enums>Enum.СтатусКурьера</enums>
   <enums>Enum.СтатусЗаказа</enums>
